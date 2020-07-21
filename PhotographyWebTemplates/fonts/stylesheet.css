@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.eot');
+    src: url('Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff'),
+        url('Poppins-Light.ttf') format('truetype'),
+        url('Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url('Epilogue-Light.eot');
+    src: url('Epilogue-Light.eot?#iefix') format('embedded-opentype'),
+        url('Epilogue-Light.woff2') format('woff2'),
+        url('Epilogue-Light.woff') format('woff'),
+        url('Epilogue-Light.ttf') format('truetype'),
+        url('Epilogue-Light.svg#Epilogue-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
