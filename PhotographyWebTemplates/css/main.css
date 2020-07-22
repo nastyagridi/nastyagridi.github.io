@@ -80,12 +80,19 @@ h1 {
   margin-top: 5rem;
   font-size: 1.3rem;
   border: none;
+  transition: all 0.2s;
+}
+.btn:hover {
+  cursor: pointer;
 }
 .btn-header {
   background-color: #ffffff;
   color: #363636;
   margin-bottom: 16rem;
   box-shadow: 4px 4px 0 1px #0030ff;
+}
+.btn-header:hover {
+  background-color: #e6e6e6;
 }
 /* Main */
 .box {
@@ -113,6 +120,9 @@ main p {
   color: #ffffff;
   margin-top: 3rem;
   box-shadow: 4px 4px 0 1px #01197e;
+}
+.btn-main:hover {
+  background-color: #1a45ff;
 }
 .h2-portfolio {
   margin-top: 0;
@@ -152,4 +162,77 @@ footer img {
   font-family: OpenSans, sans-serif;
   color: #818181;
   margin-top: 3rem;
+}
+/* media */
+@media (max-width: 991px) {
+  header {
+    background-position: top left;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+  main p {
+    font-size: 1.3rem;
+  }
+  .box {
+    margin-top: 7rem;
+  }
+  .btn {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .pic-about {
+    margin-top: 2rem;
+  }
+  footer p {
+    font-size: 1.2rem;
+  }
+  .footer-box {
+    padding: 2rem 0 1rem 0;
+  }
+  .text-footer {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    background-position: top left;
+  }
+  h1 {
+    margin-top: 10rem;
+    font-size: 4rem;
+  }
+  header .btn {
+    margin-bottom: 10rem;
+  }
+  h2 {
+    margin-top: 0;
+    text-align: left;
+  }
+  .box {
+    margin-top: 4rem;
+  }
+  main p {
+    text-align: left;
+  }
+  .pic-about {
+    margin-bottom: 4rem;
+  }
+  .btn-main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .portfolio {
+    margin-top: 1rem;
+  }
+  .footer-box {
+    padding: 1rem 0 0 0;
+  }
+  .text-footer {
+    margin-top: 1rem;
+  }
 }
