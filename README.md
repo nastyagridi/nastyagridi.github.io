@@ -32,4 +32,4 @@ HTML5, CSS3, Javascript, C#, SQL
 * Efficiency
 
 ### Level of English
-Elementary (A2)
+Pre-Intermediate (A2)
