@@ -6,9 +6,13 @@
 ### Personal information
 	
 **Name:**	Nastya Pasynkava
+
 **Marital status:**	Single
+
 **Date of birth:**	14th November 1999
+
 **Phone number:** +375(44)758-17-35
+
 **Email:** nastya_gridi@mail.ru
 
 ### Objective
