@@ -1,0 +1,79 @@
+$color-light-blue: #00AFDB;
+$color-dark-blue: #009CC2;
+$color-light: #FFFFFF;
+$color-light-s: #F5F6F7;
+$color-light-m: #C4C4C4;
+$color-dark-xs: #818181;
+$color-dark-s: #4E4E4E;
+$color-dark-l: #373737;
+$color-dark: #000000;
+
+body {
+    width: 1600px;
+}
+html {
+    font-size: 10px;
+}
+
+@mixin menu {
+    font-family: Roboto;
+    font-size: 1.4rem;
+    line-height: 2rem;    
+    color: $color-light;
+}
+@mixin tagline {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 6.4rem;
+    line-height: 7.5rem; 
+    letter-spacing: 0.45rem;   
+    text-transform: uppercase;
+    color: $color-light;
+}
+@mixin header-paragraph {
+    font-family: Roboto;
+    font-size: 1.8rem;
+    line-height: 2.5rem; 
+    letter-spacing: 0.45rem;   
+    text-transform: uppercase;
+    color: $color-light;
+}
+@mixin button {
+    padding: 1.5rem 0 0 4.7rem;
+    width: 18.4rem;
+    height: 4.6rem;
+    background: $color-light-blue;
+}
+@mixin text-button {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.6rem; 
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-light;
+}
+@mixin h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.8rem; 
+    letter-spacing: 0.1rem;   
+    text-transform: uppercase;
+    color: $color-dark-l;
+}
+@mixin text-article {
+    font-family: Roboto;
+    font-size: 1.4rem;
+    line-height: 2rem; 
+    color: $color-dark-s;
+}
+@mixin h3 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem; 
+    letter-spacing: 2.4rem;   
+    text-transform: uppercase;
+    color: $color-dark-l;
+}
