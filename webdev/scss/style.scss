@@ -12,40 +12,39 @@ body {
     width: 1600px;
 }
 html {
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
 }
 
 @mixin menu {
-    font-family: Roboto;
     font-size: 1.4rem;
     line-height: 2rem;    
     color: $color-light;
 }
 @mixin tagline {
-    font-family: Roboto;
     font-weight: bold;
     font-size: 6.4rem;
-    line-height: 7.5rem; 
+    line-height: 7.4rem; 
     letter-spacing: 0.45rem;   
     text-transform: uppercase;
     color: $color-light;
 }
 @mixin header-paragraph {
-    font-family: Roboto;
     font-size: 1.8rem;
     line-height: 2.5rem; 
-    letter-spacing: 0.45rem;   
-    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2.2rem;
+    margin-bottom: 2.85rem;
+    margin-left: -4px;
     color: $color-light;
 }
 @mixin button {
-    padding: 1.5rem 0 0 4.7rem;
     width: 18.4rem;
-    height: 4.6rem;
+    padding: 1.5rem 0;
+    border: none;
     background: $color-light-blue;
 }
 @mixin text-button {
-    font-family: Roboto;
     font-weight: bold;
     font-size: 1.4rem;
     line-height: 1.6rem; 
@@ -54,7 +53,6 @@ html {
     color: $color-light;
 }
 @mixin h2 {
-    font-family: Roboto;
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.8rem; 
@@ -63,17 +61,62 @@ html {
     color: $color-dark-l;
 }
 @mixin text-article {
-    font-family: Roboto;
     font-size: 1.4rem;
     line-height: 2rem; 
     color: $color-dark-s;
 }
 @mixin h3 {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 2rem; 
     letter-spacing: 2.4rem;   
     text-transform: uppercase;
     color: $color-dark-l;
+}
+
+.header {
+    width: 100%;
+    padding-bottom: 9rem;
+    background-image: url(../assets/images/bg-image.svg);
+}
+.nav-wrapper {
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.header-menu {
+    width: 37%;
+    margin: 0 auto;
+    ul {
+        @include menu;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: $color-light;
+        }
+    }
+}
+.header-info {
+    width: 73.3735rem;
+    margin: 13.5rem 43.5rem 18.3rem 43.5rem;
+    h1 {
+        @include tagline;
+    }
+    p {
+        @include header-paragraph;
+    }
+    button {
+        @include button;
+        @include text-button;
+        margin-left: 37.2%;
+    }
+}
+.header-icon {
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }

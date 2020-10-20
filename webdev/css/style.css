@@ -3,5 +3,78 @@ body {
 }
 
 html {
+  font-family: 'Roboto', sans-serif;
   font-size: 10px;
+}
+
+.header {
+  width: 100%;
+  padding-bottom: 9rem;
+  background-image: url(../assets/images/bg-image.svg);
+}
+
+.nav-wrapper {
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.header-menu {
+  width: 37%;
+  margin: 0 auto;
+}
+.header-menu ul {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu ul a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header-info {
+  width: 73.3735rem;
+  margin: 13.5rem 43.5rem 18.3rem 43.5rem;
+}
+.header-info h1 {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.4rem;
+  letter-spacing: 0.45rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header-info p {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-top: 2.2rem;
+  margin-bottom: 2.85rem;
+  margin-left: -4px;
+  color: #FFFFFF;
+}
+.header-info button {
+  width: 18.4rem;
+  padding: 1.5rem 0;
+  border: none;
+  background: #00AFDB;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 37.2%;
+}
+
+.header-icon {
+  width: 17rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
