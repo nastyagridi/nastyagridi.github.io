@@ -197,3 +197,32 @@ html {
         justify-content: space-between;
     }
 }
+
+.implement {
+    width: 100%;
+    padding-top: 12rem;
+    padding-bottom: 14rem;
+    padding-left: 26.9rem;
+    background-color: $color-light;
+    &-wrapper {
+        width: 59.5625%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-info {
+        width: 42.71%;
+        h2 {
+            @include h2;
+        }
+        p {
+            @include text-article;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+        button {
+            @include button;
+            @include text-button;
+        }
+    }
+}
