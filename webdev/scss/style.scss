@@ -10,6 +10,7 @@ $color-dark: #000000;
 
 body {
     width: 1600px;
+    background-color: $color-light;
 }
 html {
     font-family: 'Roboto', sans-serif;
@@ -55,7 +56,7 @@ html {
 @mixin h2 {
     font-weight: bold;
     font-size: 2.4rem;
-    line-height: 2.8rem; 
+    line-height: 2.9rem; 
     letter-spacing: 0.1rem;   
     text-transform: uppercase;
     color: $color-dark-l;
@@ -119,4 +120,35 @@ html {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.rappresent {
+    width: 100%;
+    padding-top: 12rem;
+    padding-bottom: 14rem;
+    &-wrapper {
+        width: 66.375%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-info {
+        width: 38.4%;
+        h2 {
+            @include h2;
+        }
+        p {
+            @include text-article;
+            margin-top: 2.2rem;
+            margin-bottom: 2.9rem;
+            span {
+                font-weight: bold;
+            }
+        }
+        button {
+            @include button;
+            @include text-button;
+        }
+    }
 }
