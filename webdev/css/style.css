@@ -182,11 +182,11 @@ html {
   width: 100%;
   padding-top: 12rem;
   padding-bottom: 14rem;
-  padding-left: 26.9rem;
   background-color: #FFFFFF;
 }
 .implement-wrapper {
   width: 59.5625%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -220,4 +220,93 @@ html {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.sign-up {
+  width: 100%;
+  background: url(../assets/images/sign-up-bg.svg);
+  padding-top: 20rem;
+  padding-bottom: 21.95rem;
+}
+.sign-up-wrapper {
+  width: 40.6rem;
+  margin: 0 auto;
+}
+.sign-up h2 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #373737;
+  text-align: center;
+  margin-top: -0.1rem;
+  margin-bottom: 3rem;
+  color: #FFFFFF;
+}
+.sign-up input {
+  width: 31.6rem;
+  padding: 1.3rem 0 1.3rem 2.4rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  border: none;
+  float: left;
+  color: #373737;
+  background: #FFFFFF;
+}
+.sign-up button {
+  width: 6.6rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.6rem;
+  background: #00AFDB;
+  border: none;
+}
+
+.download {
+  width: 100%;
+  background-color: #F5F6F7;
+  padding-top: 12rem;
+  padding-bottom: 18rem;
+}
+.download-wrapper {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+}
+.download-wrapper h2 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #373737;
+  line-height: 2.8rem;
+  margin-left: 0.1rem;
+}
+.download-wrapper p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #4E4E4E;
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
+  line-height: 2.1rem;
+}
+.download-wrapper-button {
+  width: 83.75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.download-wrapper-button button {
+  width: 18.4rem;
+  padding: 1.5rem 0;
+  border: none;
+  background: #00AFDB;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 18.6rem;
 }
