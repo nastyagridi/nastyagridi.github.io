@@ -295,3 +295,50 @@ html {
         }
     }
 }
+
+.footer {
+    width: 100%;
+    background-color: $color-dark;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    &-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-size: 1.4rem;
+            line-height: 2rem;
+            margin-top: 0.3rem;
+            color: #818181;
+        }
+    }
+    &-menu {
+        width: 18.45%;
+        height: 10px;
+        ul {
+            @include menu;
+            margin-top: -0.3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li:nth-child(1) {
+                margin-right: 2rem;
+            }
+            li:nth-child(2) {
+                border-left: 0.1rem solid #4E4E4E;
+                border-right: 0.1rem solid #4E4E4E;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+            li:nth-child(3) {
+                margin-left: 2rem;
+            }
+            a {
+                text-decoration: none;
+                color: $color-light;
+            }
+        }
+    }
+}
